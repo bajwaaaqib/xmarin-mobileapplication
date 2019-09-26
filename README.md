@@ -1,4 +1,4 @@
-# xmarin-mobileapplication
+# xmarin-mobile Application
 Xmarin cross-plate form mobile application for android/ mac IOS
 
 follow these steps for running app into visual studio
