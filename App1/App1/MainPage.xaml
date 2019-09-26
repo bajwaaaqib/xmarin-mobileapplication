@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage" BackgroundColor="Gray">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Add Two numbuers" HorizontalOptions="Center" Margin="0,50,0,30" TextColor="White" FontSize="Medium" />
+        <Label Text="Enter first value" TextColor="White" />
+        <Entry Placeholder="First value" x:Name="value1" Keyboard="Numeric"/>
+        <Label Text="Enter second value" TextColor="White" />
+        <Entry Placeholder="Second value" x:Name="value2" Keyboard="Numeric"/>
+        <Button Text="ADD" x:Name="add" Clicked="Add_btn" />
+        <Label x:Name="result" HorizontalOptions="Center" Margin="0,10,0,0" TextColor="White" FontSize="Medium"/>
+    </StackLayout>
+
+</ContentPage>
+ 
